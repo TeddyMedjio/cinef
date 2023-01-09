@@ -6,7 +6,7 @@ import Link from "next/link";
 const Login = () => {
   return (
     <div className="flex flex-col px-7 pt-20 md:p-16 bg-black rounded-sm md:bg-opacity-70 w-full h-screen md:h-auto md:max-w-[450px]">
-      <Link href="/">
+      <Link href="/" className="mb-10">
         <Image src={logo} alt="logo cinef" className="w-28 md:w-auto h-auto" />
       </Link>
       <h1 className="text-3xl font-bold text-white mb-7">Se connecter</h1>
