@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" mx-auto lg:mx-0 w-10/12 lg:w-8/12 pt-12 lg:pl-32 h-full lg:bg-gradient-to-r  from-black ">
+      <div className=" mx-auto lg:mx-0 w-10/12 lg:w-8/12 pt-12 lg:pl-32 h-full lg:bg-gradient-to-r  from-black ">
         <div className="flex flex-row items-center justify-between mb-28">
           <Link href="/">
             <Image
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 };
