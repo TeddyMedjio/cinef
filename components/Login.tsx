@@ -6,7 +6,7 @@ import Link from "next/link";
 const Login = () => {
   return (
     <div className="flex flex-col px-7 pt-20 md:p-16 bg-black rounded-sm md:bg-opacity-70 w-full h-screen md:h-auto md:max-w-[450px]">
-      <Link href="/" className="mb-10">
+      <Link href="/" className="mb-10 md:hidden">
         <Image src={logo} alt="logo cinef" className="w-28 md:w-auto h-auto" />
       </Link>
       <h1 className="text-3xl font-bold text-white mb-7">Se connecter</h1>
@@ -31,14 +31,22 @@ const Login = () => {
         />
       </form>
       {/* checkbox */}
-      <label className="flex items-center text-lightGray text-xs font-semibold">
-        <input
-          type="checkbox"
-          name="Se souvenir de moi"
-          className="mr-3 form-check-input appearance-none h-4 w-4 border border-green rounded-sm bg-[#acacac] checked:bg-green checked:border-green focus:outline-none transition duration-300 cursor-pointer"
-        />
-        Se souvenir de moi
-      </label>
+      <div className="flex items-center justify-between">
+        <label className="flex items-center text-lightGray text-xs font-semibold">
+          <input
+            type="checkbox"
+            name="Se souvenir de moi"
+            className="mr-3 form-check-input appearance-none h-4 w-4 border border-green rounded-sm bg-[#acacac] checked:bg-green checked:border-green focus:outline-none transition duration-300 cursor-pointer"
+          />
+          Se souvenir de moi
+        </label>
+        <Link
+          href="#"
+          className="text-lightGray text-xs font-semibold hover:underline"
+        >
+          Besoin d'aide?
+        </Link>
+      </div>
       <p className="text-[#acacac] text-base mt-20">
         Nouveau sur Cinef?{" "}
         <Link href="/">
