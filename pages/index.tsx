@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             <Image
               src={logo}
               alt="logo cinef"
-              className="w-28 md:w-auto h-auto"
+              className="w-28 md:w-[176px] h-auto"
             />
           </Link>
           <Link
