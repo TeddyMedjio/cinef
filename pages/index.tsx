@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className=" mx-auto lg:mx-0 w-10/12 lg:w-8/12 pt-12 lg:pl-32 h-full lg:bg-gradient-to-r  from-black ">
-        <div className="flex flex-row items-center justify-between mb-28">
+        <div className="flex flex-row items-center justify-between">
           <Link href="/">
             <Image
               src={logo}
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             Confidentialité
           </Link>
         </div>
-        <div className="flex flex-col items-center justify-center md:block">
+        <div className="flex flex-col items-center justify-center md:block mt-[50%] md:mt-[20%]">
           <h1 className="text-center text-4xl md:text-6xl lg:text-left lg:text-7xl font-bold text-white mb-8">
             Films, séries TV <br /> et bien plus en illimité.
           </h1>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 
           <Link
             href="/login"
-            className="md:hidden uppercase text-base text-white bg-green py-3 px-20 rounded-sm mt-44"
+            className="md:hidden uppercase text-base text-white bg-green py-3 px-20 rounded-sm mt-28"
           >
             connexion
           </Link>

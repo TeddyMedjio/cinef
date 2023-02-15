@@ -11,12 +11,12 @@ const login = () => {
       <Head>
         <title>Cinef</title>
       </Head>
-      <div className="mx-auto h-24 mb-10 hidden md:flex items-center w-11/12 ">
+      <div className="mx-auto h-24 hidden md:flex items-center w-11/12 ">
         <Link href="/">
           <Image src={logo} alt="logo cinef" />{" "}
         </Link>
       </div>
-      <div className=" flex items-center justify-center">
+      <div className=" flex items-center justify-center md:mt-[20%] lg:mt-[10%]">
         <Login />
       </div>
     </div>
